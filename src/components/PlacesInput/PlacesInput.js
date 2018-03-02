@@ -20,6 +20,7 @@ class PlacesInput extends Component {
             this.props.onPlaceAdded(this.state.placeName);
         })
     }
+
     render() {
         return (
             <View style={styles.inputContainer}>
@@ -33,7 +34,6 @@ class PlacesInput extends Component {
             </View>)
     }
 }
-export default PlacesInput;
 
 const styles = StyleSheet.create({
     inputContainer: {
@@ -50,3 +50,5 @@ const styles = StyleSheet.create({
         width: "30%"
     },
 })
+
+export default PlacesInput;

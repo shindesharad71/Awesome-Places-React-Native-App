@@ -1,12 +1,14 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
+
 import PlacesInput from './src/components/PlacesInput/PlacesInput';
 import PlacesList from './src/components/PlacesList/PlacesList';
+
 export default class App extends React.Component {
-  
+
   state = {
     places: []
-  };
+  }
 
   placeAddedHandler = (placeName) => {
     this.setState(prevState => {
