@@ -3,11 +3,13 @@ import { StyleSheet, View } from 'react-native';
 
 import PlacesInput from './src/components/PlacesInput/PlacesInput';
 import PlacesList from './src/components/PlacesList/PlacesList';
+import PlaceDetail from './src/components/PlaceDetail/PlaceDetail';
 
 export default class App extends React.Component {
 
   state = {
-    places: []
+    places: [],
+    selectedPlace: null
   }
 
   placeAddedHandler = (placeName) => {
@@ -16,26 +18,46 @@ export default class App extends React.Component {
         places: this.state.places.concat({ key: Math.random(), name: placeName, image: {
           uri: "https://images.pexels.com/photos/34950/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb"
         } })
-      }
+      };
     });
-  };
+  }
 
-  placeDeletedHandler = key => {
+  placeSelectedHandler = key => {
+    this.setState(prevState => {
+      return {
+        selectedPlace: prevState.places.find(place => {
+          return place.key === key;
+        })
+      };
+    });
+  }
+
+  placeDeletedHandler = () => {
     this.setState(prevState => {
       return {
         places: prevState.places.filter((place, i) => {
-          return place.key !== key;
-        })
-      }
-    }
-    );
+          return place.key !== prevState.selectedPlace.key;
+        }),
+        selectedPlace: null
+      };
+    });
+  }
+
+  modalClosedHandler = () => {
+    this.setState({
+      selectedPlace: null
+    });
   }
 
   render() {
     return (
       <View style={styles.container}>
-        <PlacesInput onPlaceAdded={this.placeAddedHandler} />
-        <PlacesList places={this.state.places} onItemDeleted={this.placeDeletedHandler} />
+        <PlaceDetail 
+          selectedPlace={this.state.selectedPlace} 
+          onItemDeleted={this.placeDeletedHandler} 
+          onModalClosed={this.onModalClosedHandler} />
+        <PlacesInput onPlaceAdded={this.placeAddedHandler}  />
+        <PlacesList places={this.state.places} onItemSelected={this.placeSelectedHandler} />
       </View>
     );
   }
