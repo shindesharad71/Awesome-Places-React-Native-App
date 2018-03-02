@@ -23,7 +23,7 @@ export default class App extends React.Component {
     this.setState(prevState => {
       return {
         places: prevState.places.filter((place, i) => {
-          return i !== key;
+          return place.key !== key;
         })
       }
     }
