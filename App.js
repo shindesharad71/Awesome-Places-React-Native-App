@@ -20,7 +20,7 @@ export default class App extends React.Component {
         } })
       };
     });
-  }
+  };
 
   placeSelectedHandler = key => {
     this.setState(prevState => {
@@ -30,7 +30,7 @@ export default class App extends React.Component {
         })
       };
     });
-  }
+  };
 
   placeDeletedHandler = () => {
     this.setState(prevState => {
@@ -41,7 +41,7 @@ export default class App extends React.Component {
         selectedPlace: null
       };
     });
-  }
+  };
 
   modalClosedHandler = () => {
     this.setState({
@@ -55,7 +55,7 @@ export default class App extends React.Component {
         <PlaceDetail 
           selectedPlace={this.state.selectedPlace} 
           onItemDeleted={this.placeDeletedHandler} 
-          onModalClosed={this.onModalClosedHandler} />
+          onModalClosed={this.modalClosedHandler} />
         <PlacesInput onPlaceAdded={this.placeAddedHandler}  />
         <PlacesList places={this.state.places} onItemSelected={this.placeSelectedHandler} />
       </View>
