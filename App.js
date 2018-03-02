@@ -22,8 +22,8 @@ export default class App extends React.Component {
   placeDeletedHandler = key => {
     this.setState(prevState => {
       return {
-        places: prevState.places.filter((place) => {
-          return place.key !== key;
+        places: prevState.places.filter((place, i) => {
+          return i !== key;
         })
       }
     }

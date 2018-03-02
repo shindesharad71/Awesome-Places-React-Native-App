@@ -10,8 +10,7 @@ const placesList = props => {
             renderItem={(info) => (
                 <ListItem 
                     placeName={info.item.value} 
-                    /* onItemPressed={() => props.onItemDeleted(info.item.key)} */
-                    onItemPressed={() => alert('clicked')}
+                    onItemPressed={() => props.onItemDeleted(info.item.key)}
                  />
             )}
         />
