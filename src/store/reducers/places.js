@@ -10,7 +10,7 @@ const reducer = (state = initialState, action) => {
         case ADD_PLACE:
             return {
                 ...state,
-                places: this.state.places.concat({ key: Math.random(), name: action.placeName, image: {
+                places: state.places.concat({ key: Math.random(), name: action.placeName, image: {
                     uri: "https://images.pexels.com/photos/34950/pexels-photo.jpg?w=940&h=650&auto=compress&cs=tinysrgb"
                   } })
             };

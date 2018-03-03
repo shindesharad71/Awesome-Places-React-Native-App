@@ -9,7 +9,7 @@ import { addPlace, deletePlace, selectPlace, deselectPlace } from './src/store/a
 
 class App extends React.Component {
 
-  placeAddedHandler = (placeName) => {
+  placeAddedHandler = placeName => {
     this.props.onAddPlace(placeName);
   };
 
@@ -58,9 +58,9 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onAddPlace: (name) => dispatch(addPlace(name)),
+    onAddPlace: name => dispatch(addPlace(name)),
     onDeletePlace: () => dispatch(deletePlace()),
-    onSelectPlace: (key) => dispatch(selectPlace(key)),
+    onSelectPlace: key => dispatch(selectPlace(key)),
     onDeselectPlace: () => dispatch(deselectPlace())
   };
 };
