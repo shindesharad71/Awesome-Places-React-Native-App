@@ -3,12 +3,93 @@
 
     <item
         is-multidex="false"
-        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_37b052ba67fe7f4357250c0877905fac666ae0b4.jar" />
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_ccc2cd5ecd1797bb64d487dec28ec3fc9e049a34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_52e5ea74311520355d6fc9f1917dd81f155aa426.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_cbf57df11a7afee7277b7bd312c697f210f52f26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/NativeApp/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="526a445406d661bb9c5606b74ab6ddf34a4b3004">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/NativeApp-react-native-vector-icons-unspecified_aaacef98036f0e240e2e32234b5b5d1d17537e5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_ccc2cd5ecd1797bb64d487dec28ec3fc9e049a34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_88f18aadbf71c44ab89c04ffb82602994ac9e4b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/NativeApp/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="526a445406d661bb9c5606b74ab6ddf34a4b3004">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/NativeApp-react-native-vector-icons-unspecified_aaacef98036f0e240e2e32234b5b5d1d17537e5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_80d7fb0f938fc0a9d7666a4da4bc0acaed023fae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_9b77e88142f4398d5a8651eca733f2bf56d5de8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_b6178b9f1ce6fd405ba34272ec412926cc71babd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -30,39 +111,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_4028a4c202ce96f709f89818578fb1ccc38c08a9.jar" />
+        revision="25.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_34fb0742d1da47a8f0a41fb32743754dc1106034.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/sharz/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_875543b453c364af4d9210b4f2cd1e3554635935.jar" />
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_b8ccc965fdb2ce91573b370b122bb45db1bdf992.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_ccc2cd5ecd1797bb64d487dec28ec3fc9e049a34.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_dd601b7b03b318ac3721e98e06d05a135b9bc6df.jar" />
+        revision="25.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_2f375e0a226f3e0a4bb306922b26d700d7f6d156.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,39 +147,39 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu-toolbar/1.5.4/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_34fb0742d1da47a8f0a41fb32743754dc1106034.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_88f18aadbf71c44ab89c04ffb82602994ac9e4b8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_87eede18f8d070e61f0ce902cf86bb687d1511cc.jar" />
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-toolbar-1.5.4_bf874e1af35f7730cd951bd3fdd4d6af34008468.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
+        revision="25.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
         <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_c581b6d5da33a58bbc66d079db31abae4c61c4ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_7e5db11d23417d1f6cd447eb5424020f1314c34a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_34fb0742d1da47a8f0a41fb32743754dc1106034.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,21 +192,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_5a9a7d79df80633a7b9afe2ed514e9e034e0fe45.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/NativeApp/react-native-vector-icons/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="526a445406d661bb9c5606b74ab6ddf34a4b3004">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/NativeApp-react-native-vector-icons-unspecified_aaacef98036f0e240e2e32234b5b5d1d17537e5f.jar" />
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_0860a20253e04bfcd81440540cf4900647f94e44.jar" />
     </item>
     <item
         is-multidex="false"
@@ -147,12 +210,264 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_3a82559b24415f183d69deb0afa82a31d73424db.jar" />
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_a39c9fad9f2865713216c9bacf30882d9ed68869.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_df54863892a538ed437f244a79c198ac12f89810.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.52.0_3697ffad30ffd4d19ce214ea7351bd20e7498b92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_483bd2e559b404442bc036ab5d13e81de6967c14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/NativeApp/react-native-navigation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e3d33229bd7e48cd43c5976bbae73586829d0633">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/NativeApp-react-native-navigation-unspecified_76dd6065c4acf3440b3693562bb5195709952418.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_0860a20253e04bfcd81440540cf4900647f94e44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_4028a4c202ce96f709f89818578fb1ccc38c08a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_51cbabfe98a0db51f17173015ae34e307b45cfae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_f207845e1fe1aeb65c1ebf4c66aacc1887e8591b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_dd601b7b03b318ac3721e98e06d05a135b9bc6df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_a39c9fad9f2865713216c9bacf30882d9ed68869.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_4028a4c202ce96f709f89818578fb1ccc38c08a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_0ec5e60c373b6db0d37c7f4ed005848740f72494.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_c581b6d5da33a58bbc66d079db31abae4c61c4ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_dd601b7b03b318ac3721e98e06d05a135b9bc6df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_5a9a7d79df80633a7b9afe2ed514e9e034e0fe45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_5a9a7d79df80633a7b9afe2ed514e9e034e0fe45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_be32f504269277038eca014a8db3f209982107a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_8e4fcd9deb869d199e2c418998483f48c2cbacf4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-1.5.4_3b3f8fa480d7167bec57d04259261d7554071efd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_37b052ba67fe7f4357250c0877905fac666ae0b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_9b77e88142f4398d5a8651eca733f2bf56d5de8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_77678d32eb40d1a33cf0d0ee103e4a1eb7c5f2f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_ba0a11a6b617433c69e8472237e9f9bedb5ea2f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.aurelhubert-ahbottomnavigation-2.0.6_2eb7f402d2fc0c1db2f99782e7d8feb33c5c9d89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_12aa293b516641a9c6cb7412587a34d464e1ef65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_88f18aadbf71c44ab89c04ffb82602994ac9e4b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_d576e266b09cf1ddeaea051c66fd24c81712d54a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_a9602784796ff0f73935ec09225a0902773f020a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,39 +480,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_a39c9fad9f2865713216c9bacf30882d9ed68869.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_10949cfc68a5521d91c6ae6137bf058946802bf1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_9b77e88142f4398d5a8651eca733f2bf56d5de8a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_0860a20253e04bfcd81440540cf4900647f94e44.jar" />
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_37b052ba67fe7f4357250c0877905fac666ae0b4.jar" />
     </item>
 
 </items>

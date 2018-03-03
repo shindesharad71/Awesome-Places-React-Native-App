@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/menu/search_item.xml",
+        "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/NativeApp/react-native-navigation/unspecified/res/menu/search_item.xml"
+    },
+    {
+        "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/menu/stub.xml",
+        "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/NativeApp/react-native-navigation/unspecified/res/menu/stub.xml"
+    }
+]
