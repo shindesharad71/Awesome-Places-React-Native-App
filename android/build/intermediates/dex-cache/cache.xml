@@ -129,6 +129,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/NativeApp/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="526a445406d661bb9c5606b74ab6ddf34a4b3004">
+        <dex dex="/home/sharz/NativeApp/android/app/build/intermediates/pre-dexed/debug/NativeApp-react-native-vector-icons-unspecified_aaacef98036f0e240e2e32234b5b5d1d17537e5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/sharz/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"

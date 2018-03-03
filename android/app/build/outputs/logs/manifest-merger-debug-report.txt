@@ -26,6 +26,7 @@ MERGED from [com.facebook.react:react-native:0.52.0] /home/sharz/NativeApp/andro
 		ADDED from /home/sharz/NativeApp/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /home/sharz/NativeApp/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [NativeApp:react-native-vector-icons:unspecified] /home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/NativeApp/react-native-vector-icons/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.52.0] /home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] /home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.0.1] /home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
