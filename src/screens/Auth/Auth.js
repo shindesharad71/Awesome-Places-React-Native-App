@@ -5,6 +5,7 @@ import startMainTabs from '../MainTabs/startMainTab';
 import DefaultInput from '../../UI/DefaultInput/DefaultInput';
 import HeadingText from '../../UI/HeadingText/HeadingText';
 import MainText from '../../UI/MainText/MainText';
+import ButtonWithBackground from '../../UI/ButtonWithBackground/ButtonWithBackground';
 import backgroundImage from '../../assets/background.jpg'
 
 class AuthScreen extends Component {
@@ -21,12 +22,14 @@ class AuthScreen extends Component {
                         <HeadingText>Please Log In</HeadingText>
                     </MainText>
                     <Button title="Switch To Login"/>
+                    <ButtonWithBackground color="#2196F3">Switch To Login</ButtonWithBackground>
                     <View style={styles.inputContainer}>
                         <DefaultInput placeholder="Your Email" />
                         <DefaultInput placeholder="Password" />
                         <DefaultInput placeholder="Confirm Password" />
                     </View>
                     <Button title="Submit" onPress={this.loginHandler} />
+                    <ButtonWithBackground color="#2196F3" onPress={this.loginHandler}>Submit</ButtonWithBackground>
                 </View>
             </ImageBackground>
         );
