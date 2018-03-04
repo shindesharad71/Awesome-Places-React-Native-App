@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { View, Text, Button, TextInput, StyleSheet } from 'react-native';
+import { View, Text, Button, TextInput, StyleSheet, ImageBackground } from 'react-native';
 
 import startMainTabs from '../MainTabs/startMainTab';
 import DefaultInput from '../../UI/DefaultInput/DefaultInput';
 import HeadingText from '../../UI/HeadingText/HeadingText';
 import MainText from '../../UI/MainText/MainText';
+import backgroundImage from '../../assets/background.jpg'
 
 class AuthScreen extends Component {
 
@@ -14,18 +15,20 @@ class AuthScreen extends Component {
 
     render () {
         return (
-            <View style={styles.container}>
-                <MainText>
-                    <HeadingText>Please Log In</HeadingText>
-                </MainText>
-                <Button title="Switch To Login"/>
-                <View style={styles.inputContainer}>
-                    <DefaultInput placeholder="Your Email" />
-                    <DefaultInput placeholder="Password" />
-                    <DefaultInput placeholder="Confirm Password" />
+            <ImageBackground source={backgroundImage} style={styles.backgroundImage}>
+                <View style={styles.container}>
+                    <MainText>
+                        <HeadingText>Please Log In</HeadingText>
+                    </MainText>
+                    <Button title="Switch To Login"/>
+                    <View style={styles.inputContainer}>
+                        <DefaultInput placeholder="Your Email" />
+                        <DefaultInput placeholder="Password" />
+                        <DefaultInput placeholder="Confirm Password" />
+                    </View>
+                    <Button title="Submit" onPress={this.loginHandler} />
                 </View>
-                <Button title="Submit" onPress={this.loginHandler} />
-            </View>
+            </ImageBackground>
         );
     }
 }
@@ -38,6 +41,10 @@ const styles = StyleSheet.create({
     },
     inputContainer: {
         width: "85%"
+    },
+    backgroundImage: {
+        width: "100%",
+        flex: 1
     }
 });
 
