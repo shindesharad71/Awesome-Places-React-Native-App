@@ -5,7 +5,8 @@ import {
   Button,
   TextInput,
   StyleSheet,
-  ImageBackground
+  ImageBackground,
+  Dimensions
 } from "react-native";
 
 import startMainTabs from "../MainTabs/startMainTab";
@@ -20,17 +21,32 @@ class AuthScreen extends Component {
   };
 
   render() {
+
+    let headingText = null;
+
+    if(Dimensions.get('window').height > 500) {
+      headingText = (
+        <MainText>
+            <HeadingText>Please Log In</HeadingText>
+        </MainText>
+      );
+    }
+
     return (
       <ImageBackground source={backgroundImage} style={styles.backgroundImage}>
         <View style={styles.container}>
-          <MainText>
-            <HeadingText>Please Log In</HeadingText>
-          </MainText>
+          {headingText}
           <Button title="Switch To Login" onPress={() => alert('clicked!')} />
           <View style={styles.inputContainer}>
             <DefaultInput placeholder="Your Email" />
-            <DefaultInput placeholder="Password" />
-            <DefaultInput placeholder="Confirm Password" />
+            <View style={styles.passwordContainer}>
+              <View style={styles.passwordWrapper}>
+                <DefaultInput placeholder="Password" />
+              </View>
+              <View style={styles.passwordWrapper}>
+                <DefaultInput placeholder="Confirm Password" />
+              </View>
+            </View>
           </View>
           <Button title="Submit" onPress={this.loginHandler} />
         </View>
@@ -51,6 +67,13 @@ const styles = StyleSheet.create({
   backgroundImage: {
     width: "100%",
     flex: 1
+  },
+  passwordContainer: {
+    flexDirection: Dimensions.get('window').height > 500 ? 'column' : 'row',
+    justifyContent: "space-between"
+  },
+  passwordWrapper: {
+    width: Dimensions.get('window').height > 500 ? "100%" : "45%"
   }
 });
 
