@@ -16,18 +16,39 @@ import MainText from "../../UI/MainText/MainText";
 import backgroundImage from "../../assets/background.jpg";
 
 class AuthScreen extends Component {
+
+  state = {
+    respStyles: {
+      pwContainerDirection: "column",
+      pwContainerJustifyContent: "flex-start",
+      pwWrapperWidth: "100%"
+    }
+  };
+
+  constructor(props) {
+    super(props);
+    Dimensions.addEventListener("change", dims => {
+      this.setState({
+        respStyles: {
+          pwContainerDirection: Dimensions.get("window").height > 500 ? "column" : "row",
+          pwContainerJustifyContent: Dimensions.get("window").height > 500 ? "flex-start" : "space-between",
+          pwWrapperWidth: Dimensions.get("window").height > 500 ? "100%" : "45%"
+        }
+      });
+    });
+  }
+
   loginHandler = () => {
     startMainTabs();
   };
 
   render() {
-
     let headingText = null;
 
-    if(Dimensions.get('window').height > 500) {
+    if (Dimensions.get("window").height > 500) {
       headingText = (
         <MainText>
-            <HeadingText>Please Log In</HeadingText>
+          <HeadingText>Please Log In</HeadingText>
         </MainText>
       );
     }
@@ -36,14 +57,23 @@ class AuthScreen extends Component {
       <ImageBackground source={backgroundImage} style={styles.backgroundImage}>
         <View style={styles.container}>
           {headingText}
-          <Button title="Switch To Login" onPress={() => alert('clicked!')} />
+          <Button title="Switch To Login" onPress={() => alert("clicked!")} />
           <View style={styles.inputContainer}>
             <DefaultInput placeholder="Your Email" />
-            <View style={styles.passwordContainer}>
-              <View style={styles.passwordWrapper}>
+            <View
+              style={{ 
+                flexDirection: this.state.respStyles.pwContainerDirection,
+                justifyContent: this.state.respStyles.pwContainerJustifyContent
+               }}
+            >
+              <View style={{
+                width: this.state.respStyles.pwWrapperWidth
+              }}>
                 <DefaultInput placeholder="Password" />
               </View>
-              <View style={styles.passwordWrapper}>
+              <View style={{
+                width: this.state.respStyles.pwWrapperWidth
+              }}>
                 <DefaultInput placeholder="Confirm Password" />
               </View>
             </View>
@@ -69,11 +99,11 @@ const styles = StyleSheet.create({
     flex: 1
   },
   passwordContainer: {
-    flexDirection: Dimensions.get('window').height > 500 ? 'column' : 'row',
+    flexDirection: Dimensions.get("window").height > 500 ? "column" : "row",
     justifyContent: "space-between"
   },
   passwordWrapper: {
-    width: Dimensions.get('window').height > 500 ? "100%" : "45%"
+    width: Dimensions.get("window").height > 500 ? "100%" : "45%"
   }
 });
 
