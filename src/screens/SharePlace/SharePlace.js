@@ -17,6 +17,11 @@ import HeadingText from '../../UI/HeadingText/HeadingText';
 import PlaceHolderImage from '../../assets/preview.png';
 
 class SharePlaceScreen extends Component {
+
+  static navigatorStyle = {
+    navBarButtonColor: "orange"
+  }
+
   constructor(props) {
     super(props);
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
