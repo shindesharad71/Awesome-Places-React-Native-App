@@ -65,14 +65,39 @@ class AuthScreen extends Component {
     startMainTabs();
   };
 
-  updateInputState = (key, value) => {
+  updateInputState = (key, value, connectedValue) => {
+    let connectedValue = {};
+    if(this.state.controls[key].validationRules.equalTo) {
+      const equalControl = this.state.controls[key].validationRules.equalTo;
+      const equalValue: this.state.controls[equalControl].value;
+      connectedValue = {
+        ...connectedValue,
+        equalTo: equalValue
+      };
+    }
+
+    if(key === 'password') {
+      const equalControl = 'password';
+      const equalValue: this.state.controls[equalControl].value;
+      connectedValue = {
+        ...connectedValue,
+        equalTo: equalValue
+      };
+    }
+
     this.setState(prevState => {
       return {
         controls: {
           ...prevState.controls,
           [key]: {
-            value: value
+            ...prevState.controls[key],
+            value: value,
+            valid: validate(value, prevState.controls[key].validationRules, connectedValue)
           }
+        },
+        confirmPassword: {
+          ...prevState.controls.confirmPassword,
+          valid: key === 'password' ? validate(prevState.controls.confirmPassword.value, prevState.controls.confirmPassword.validationRules, connectedValue) : prevState.controls.confirmPassword.valid
         }
       };
     });
