@@ -6,7 +6,10 @@ import {
   TextInput,
   StyleSheet,
   ImageBackground,
-  Dimensions
+  Dimensions,
+  KeyboardAvoidingView,
+  Keyboard,
+  TouchableWithoutFeedback
 } from "react-native";
 
 import startMainTabs from "../MainTabs/startMainTabs";
@@ -135,11 +138,12 @@ class AuthScreen extends Component {
     }
     return (
       <ImageBackground source={backgroundImage} style={styles.backgroundImage}>
-        <View style={styles.container}>
+        <KeyboardAvoidingView behavior="padding" style={styles.container}>
           {headingText}
           <ButtonWithBackground color="#29aaf4" onPress={this.switchAuthModeHandler}>
             Switch to {this.state.authModde === 'login' ? 'Sign Up' : 'Login'}
           </ButtonWithBackground>
+          <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
           <View style={styles.inputContainer}>
             <DefaultInput
               placeholder="Your E-Mail Address"
@@ -192,9 +196,10 @@ class AuthScreen extends Component {
                   touched={this.state.controls.confirmPassword.touched}
                   secureTextEntry
                 />
-              </View>
+              </KeyboardAvoidingView>
             </View>
           </View>
+          </TouchableWithoutFeedback>
           <ButtonWithBackground 
             color="#29aaf4" 
             onPress={this.loginHandler}
@@ -202,7 +207,7 @@ class AuthScreen extends Component {
             >
             Submit
           </ButtonWithBackground>
-        </View>
+        </KeyboardAvoidingView>
       </ImageBackground>
     );
   }
