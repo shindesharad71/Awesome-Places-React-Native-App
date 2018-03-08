@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   },
   invalid: {
     backgroundColor: '#f9c0c0',
-    borderColor: 'red'
+    borderColor: "red"
   }
 });
 
