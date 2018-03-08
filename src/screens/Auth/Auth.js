@@ -22,6 +22,7 @@ import { tryAuth } from '../../store/actions/index';
 class AuthScreen extends Component {
   state = {
     viewMode: Dimensions.get("window").height > 500 ? "portrait" : "landscape",
+    authModde: "login",
     controls: {
       email: {
         value: "",
@@ -74,6 +75,14 @@ class AuthScreen extends Component {
     this.props.onLogin();
     startMainTabs();
   };
+
+  switchAuthModeHandler = () => {
+    this.setState(prevState => {
+      return {
+        authModde: prevState.authModde === 'login' ? 'signup' : 'login'
+      };
+    });
+  }
 
   updateInputState = (key, value, connectedValue) => {
     let connectedValue = {};
@@ -128,8 +137,8 @@ class AuthScreen extends Component {
       <ImageBackground source={backgroundImage} style={styles.backgroundImage}>
         <View style={styles.container}>
           {headingText}
-          <ButtonWithBackground color="#29aaf4" onPress={() => alert("Hello")}>
-            Switch to Login
+          <ButtonWithBackground color="#29aaf4" onPress={this.switchAuthModeHandler}>
+            Switch to {this.state.authModde === 'login' ? 'Sign Up' : 'Login'}
           </ButtonWithBackground>
           <View style={styles.inputContainer}>
             <DefaultInput
