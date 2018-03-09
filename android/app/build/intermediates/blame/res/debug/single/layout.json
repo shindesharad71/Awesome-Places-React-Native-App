@@ -16,12 +16,12 @@
         "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
         "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
         "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_layout.xml"
     },
     {
         "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
@@ -80,12 +80,12 @@
         "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_simple.xml"
-    },
-    {
         "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/redbox_item_frame.xml",
         "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/layout/redbox_item_frame.xml"
+    },
+    {
+        "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
@@ -96,12 +96,12 @@
         "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
         "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
