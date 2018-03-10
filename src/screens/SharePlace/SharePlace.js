@@ -23,7 +23,20 @@ class SharePlaceScreen extends Component {
   }
 
   state = {
-    placeName: ""
+    controls: {
+      placeName: {
+        value: "",
+        valid: false,
+        touched: false,
+        validationRules: {
+          notEmpty: true
+        }
+      },
+      location: {
+        value: null,
+        valuid: false
+      }
+    }
   };
 
   constructor(props) {
@@ -48,10 +61,21 @@ class SharePlaceScreen extends Component {
   };
 
   placeAddedHandler = () => {
-    if (this.state.placeName.trim() !== "") {
-      this.props.onAddPlace(this.state.placeName);
-    }
+    this.props.onAddPlace(this.state.controls.placeName.value, this.state.controls.location.value);
   };
+
+  locationPickedHandler = location => {
+    this.setState(prevState => {
+      return {controls: {
+        ...prevState.controls,
+        location: {
+          value: location,
+          valid: true
+        }
+      }
+    }
+    })
+  }
 
   render() {
     return (
@@ -61,13 +85,14 @@ class SharePlaceScreen extends Component {
             <HeadingText>Share a Place with us!</HeadingText>
           </MainText>
           <PickImage />
-          <PickLocation />
+          <PickLocation onLocationPick={this.locationPickedHandler} />
           <PlaceInput
             placeName={this.state.placeName}
             onChangeText={this.placeNameChangedHandler}
           />
           <View style={styles.button}>
-            <Button title="Share the Place!" onPress={this.placeAddedHandler} />
+            <Button title="Share the Place!" onPress={this.placeAddedHandler}
+            disabled={!this.state.controls.placeName.valid || !this.state.controls.location.valid} />
           </View>
         </View>
       </ScrollView>
@@ -98,7 +123,7 @@ const styles = StyleSheet.create({
 
 const mapDispatchToProps = dispatch => {
   return {
-    onAddPlace: placeName => dispatch(addPlace(placeName))
+    onAddPlace: (placeName, location) => dispatch(addPlace(placeName, location))
   };
 };
 
