@@ -16,11 +16,12 @@ import MainText from "../../components/UI/MainText/MainText";
 import HeadingText from "../../components/UI/HeadingText/HeadingText";
 import PickImage from "../../components/PickImage/PickImage";
 import PickLocation from "../../components/PickLocation/PickLocation";
+import validate from "../../utility/validation";
 
 class SharePlaceScreen extends Component {
   static navigatorStyle = {
     navBarButtonColor: "orange"
-  }
+  };
 
   state = {
     controls: {
@@ -34,7 +35,7 @@ class SharePlaceScreen extends Component {
       },
       location: {
         value: null,
-        valuid: false
+        valid: false
       },
       image: {
         value: null,
@@ -59,40 +60,56 @@ class SharePlaceScreen extends Component {
   };
 
   placeNameChangedHandler = val => {
-    this.setState({
-      placeName: val
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          placeName: {
+            ...prevState.controls.placeName,
+            value: val,
+            valid: validate(val, prevState.controls.placeName.validationRules),
+            touched: true
+          }
+        }
+      };
     });
-  };
-
-  placeAddedHandler = () => {
-    this.props.onAddPlace(this.state.controls.placeName.value, 
-      this.state.controls.location.value,
-    this.state.controls.image.value
-  );
   };
 
   locationPickedHandler = location => {
     this.setState(prevState => {
-      return {controls: {
-        ...prevState.controls,
-        location: {
-          value: location,
-          valid: true
+      return {
+        controls: {
+          ...prevState.controls,
+          location: {
+            value: location,
+            valid: true
+          }
         }
-      }
-    }
-    })
-  }
+      };
+    });
+  };
 
   imagePickedHandler = image => {
     this.setState(prevState => {
-      ...prevState.controls,
-      image: {
-        value: image,
-        valid: true
-      }
+      return {
+        controls: {
+          ...prevState.controls,
+          image: {
+            value: image,
+            valid: true
+          }
+        }
+      };
     });
   }
+
+  placeAddedHandler = () => {
+    this.props.onAddPlace(
+      this.state.controls.placeName.value,
+      this.state.controls.location.value,
+      this.state.controls.image.value
+    );
+  };
 
   render() {
     return (
@@ -104,12 +121,19 @@ class SharePlaceScreen extends Component {
           <PickImage onImagePicked={this.imagePickedHandler} />
           <PickLocation onLocationPick={this.locationPickedHandler} />
           <PlaceInput
-            placeName={this.state.placeName}
+            placeData={this.state.controls.placeName}
             onChangeText={this.placeNameChangedHandler}
           />
           <View style={styles.button}>
-            <Button title="Share the Place!" onPress={this.placeAddedHandler}
-            disabled={!this.state.controls.placeName.valid || !this.state.controls.location.valid || !this.state.controls.image.valid} />
+            <Button
+              title="Share the Place!"
+              onPress={this.placeAddedHandler}
+              disabled={
+                !this.state.controls.placeName.valid ||
+                !this.state.controls.location.valid ||
+                !this.state.controls.image.valid
+              }
+            />
           </View>
         </View>
       </ScrollView>
