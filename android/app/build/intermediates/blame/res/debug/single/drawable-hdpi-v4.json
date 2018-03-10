@@ -48,12 +48,12 @@
         "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png",
         "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_full_open_on_phone.png",

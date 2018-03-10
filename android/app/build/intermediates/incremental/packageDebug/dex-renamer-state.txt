@@ -1,4 +1,4 @@
-#Sat Mar 10 22:34:46 IST 2018
+#Sat Mar 10 23:43:49 IST 2018
 base.0=/home/sharz/NativeApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/home/sharz/NativeApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

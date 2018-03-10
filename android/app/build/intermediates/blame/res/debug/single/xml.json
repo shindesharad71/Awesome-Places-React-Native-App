@@ -2,5 +2,9 @@
     {
         "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/home/sharz/NativeApp/android/app/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/home/sharz/NativeApp/android/app/build/intermediates/exploded-aar/NativeApp/react-native-image-picker/unspecified/res/xml/provider_paths.xml"
     }
 ]
