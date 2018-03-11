@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "create-react-native-app": "^1.0.0",
+    "firebase-tools": "^3.17.6",
+    "global": "^4.3.2",
     "react": "16.2.0",
     "react-native": "0.52.0",
     "react-native-image-picker": "^0.26.7",
