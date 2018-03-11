@@ -12,6 +12,7 @@ export const addPlace = (placeName, location, image) => {
         }).catch(err => {
             console.log(err);
             dispatch(uiStopLoading());
+            alert('Something went wrong try again!');
         })
         .then(res => res.json())
         .then(parsedRes => {
@@ -27,6 +28,7 @@ export const addPlace = (placeName, location, image) => {
             .catch(err => {
                 console.log(err);
                 dispatch(uiStopLoading());
+                alert('Something went wrong try again!');
             })
             .then(res => res.json())
             .then(parsedRes => {
