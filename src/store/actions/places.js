@@ -6,6 +6,16 @@ export const addPlace = (placeName, location, image) => {
             placeName: placeName,
             location: location
         };
+        fetch("https://us-central1-awesome-places-r-1520617147968.cloudfunctions.net/storeImage", {
+            method: "POST",
+            body: JSON.stringify({
+                image: image.base64
+            })
+        }).catch(err => console.log(err))
+        .then(res => res.json())
+        .then(parsedRes => {
+            console.log(parsedRes);
+        });
         fetch("https://awesome-places-r-1520617147968.firebaseio.com/places.json", {
             method: "POST",
             body: JSON.stringify(placeData)
