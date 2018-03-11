@@ -51,7 +51,7 @@ export const getPlaces = () => {
             for(let key in parsedRes) {
                 places.push({
                     ...parsedRes[key],
-                    id: key,
+                    key: key,
                     image: {
                         uri: parsedRes[key].image
                     }
