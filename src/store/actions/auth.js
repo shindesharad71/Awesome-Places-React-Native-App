@@ -3,8 +3,8 @@ import { uiStartLoading, uiStopLoading } from './index';
 import startMainTabs from '../../screens/MainTabs/startMainTabs';
 
 export const tryAuth = (authData, authMode) => {
-    dispatch(uiStartLoading());
     return dispatch => {
+        //dispatch(uiStartLoading());
         const apiKey = 'AIzaSyAfGWjbMqED-ls4gUzfKRD0GzzXDDk9RWE';
         let url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key='+apiKey;
         if(authMode === 'signup') {

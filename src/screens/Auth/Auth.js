@@ -271,15 +271,15 @@ const styles = StyleSheet.create({
   }
 });
 
-const mapDispatchToProps = dispatch => {
-  return {
-    onTryAuth: (authData, authMode) => dispatch(tryAuth(authData, authMode))
-  };
-};
-
 const mapStateToProps = state => {
   return {
     isLoading: state.ui.isLoading
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    onTryAuth: (authData, authMode) => dispatch(tryAuth(authData, authMode))
   };
 };
 
