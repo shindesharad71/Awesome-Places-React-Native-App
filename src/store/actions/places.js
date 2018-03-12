@@ -4,7 +4,7 @@ import { uiStartLoading, uiStopLoading, authGetToken } from "./index";
 export const addPlace = (placeName, location, image) => {
 
   dispatch(uiStartLoading());
-  dispatch(authGetToken())
+  dispatch(authGetToken());
   return dispatch => {
     fetch(
       "https://us-central1-awesome-places-r-1520617147968.cloudfunctions.net/storeImage",

@@ -1,3 +1,4 @@
+import { AsyncStorage } from "react-native";
 import { TRY_AUTH, AUTH_SET_TOKEN } from './actionTypes';
 import { uiStartLoading, uiStopLoading } from './index';
 import startMainTabs from '../../screens/MainTabs/startMainTabs';
@@ -59,4 +60,11 @@ export const authGetToken = () => {
     });
     return promise;
  };
+};
+
+export const authStoreToken = token => {
+    return dispatch => {
+        dispatch(authSetToken(token));
+        AsyncStorage.setItem('ap:auth:token', token);
+    }
 };
