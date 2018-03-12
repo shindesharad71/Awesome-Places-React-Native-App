@@ -9,7 +9,7 @@ import {
 import { connect } from "react-redux";
 
 import PlaceList from "../../components/PlaceList/PlaceList";
-import { getPlaces } from '../../store/actions/index';
+import { getPlaces } from "../../store/actions/index";
 
 class FindPlaceScreen extends Component {
   static navigatorStyle = {
@@ -145,7 +145,9 @@ const mapStateToProps = state => {
 };
 
 const mapDispatchToProps = dispatch => {
-  onLoadPlaces: () => dispatch(getPlaces());
+  return {
+    onLoadPlaces: () => dispatch(getPlaces())
+  };
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(FindPlaceScreen);

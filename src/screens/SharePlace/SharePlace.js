@@ -102,7 +102,7 @@ class SharePlaceScreen extends Component {
         }
       };
     });
-  }
+  };
 
   placeAddedHandler = () => {
     this.props.onAddPlace(
@@ -113,18 +113,19 @@ class SharePlaceScreen extends Component {
   };
 
   render() {
-    
-    let submitButton = (<Button
-    title="Share the Place!"
-    onPress={this.placeAddedHandler}
-    disabled={
-      !this.state.controls.placeName.valid ||
-      !this.state.controls.location.valid ||
-      !this.state.controls.image.valid
-    }
-  />);
+    let submitButton = (
+      <Button
+        title="Share the Place!"
+        onPress={this.placeAddedHandler}
+        disabled={
+          !this.state.controls.placeName.valid ||
+          !this.state.controls.location.valid ||
+          !this.state.controls.image.valid
+        }
+      />
+    );
 
-    if(this.props.isLoading) {
+    if (this.props.isLoading) {
       submitButton = <ActivityIndicator />;
     }
 
@@ -168,7 +169,7 @@ const styles = StyleSheet.create({
   }
 });
 
-mapStateToProps = state => {
+const mapStateToProps = state => {
   return {
     isLoading: state.ui.isLoading
   };
@@ -176,7 +177,8 @@ mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onAddPlace: (placeName, location, image) => dispatch(addPlace(placeName, location, image))
+    onAddPlace: (placeName, location, image) =>
+      dispatch(addPlace(placeName, location, image))
   };
 };
 
